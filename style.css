@@ -1,0 +1,26 @@
+#meals{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:30px; 
+}
+.meal{
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+.meal-name{
+    font-size: 25px;
+    color: indianred;
+}
+.meal-image{
+    width: 200px;
+    height: 200px;
+}
+#mealDetail{
+    margin-bottom: 200px;
+}
+#mealDetail img{
+    width: 200px;
+}
